@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    padding: 20px;
+    height: 100vh;
+    width: 90vw;
+    background-image: url('https://img.freepik.com/premium-photo/abstract-high-tech-background-generative-ai_512242-8437.jpg');
+    background-size: cover;
+}
+
+label, h1, p{
+    color: beige;
+}
+
+h1 {
+    text-align: center;
+}
+
+#banner-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+#banner-form input, #banner-form select, #banner-form button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+#banner-output {
+    text-align: center;
+}
+
+#banner-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+#banner-text {
+    white-space: pre-wrap;
+}
+
+.main-container{
+    width: 50vw;
+    height: 60vh;
+    background-color: rgba(0, 0, 0, 0.558);
+    box-shadow: 15px 15px 15px rgba(48, 35, 225, 0.293);
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.423);
+}
+
+.navbar-brand {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50px;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+}
+
+/* .logo{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    
+} */
+
+.heading{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 65px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.558);
+    padding: 40px 0;
+    color: white;
+    position: relative;
+    width: 96vw;
+    bottom: 0;
+    border-top-left-radius: 21px;
+    border-top-right-radius: 21px;
+}
+ 
+.wrapper {
+    text-align: center;
+    padding: 50px;
+    /* background-color: rgba(0, 0, 0, 0.558); */
+    color: white;
+}
+  
+.wrapper h2 {
+    font-size: 2rem;
+    color: white;
+}
+  
+.wrapper hr {
+    width: 50%;
+    margin: 20px auto;
+    border: 1px solid #555;
+}
+  
+.members {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+  
+.team-mem {
+    margin: 20px;
+    text-align: center;
+    width: 200px;
+}
+  
+
+.team-mem img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+  
+.team-mem h5 {
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: 5px;
+}
+  
+.team-mem p {
+    font-size: 1rem;
+    color: #bbb;
+}
+
+footer {
+    flex-shrink: 0;
+}
+
+main {
+    flex: 1;
+}
